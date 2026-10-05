@@ -4,4 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-blake3 = { version = "1.8.7", features = ["zeroize"] }
+actix-web = "4.15.0"
+serde = "1.0.229"
+sonic-rs = "0.5.10"
+tokio = "1.53.1"
